@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/rodrigopaesbolzani.lwc-l6ceige6",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve Aqw9AxB9AWV2OoZnXcLR --open"
+  }
+}

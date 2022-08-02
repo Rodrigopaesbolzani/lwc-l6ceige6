@@ -1,0 +1,23 @@
+<template>
+
+	<div class="app slds-p-around_x-large">
+		<h1 class="slds-text-heading_large">{title}</h1>
+
+
+
+
+
+		<p>Name: {acount.name} </p>
+		<p>Type: {acount.type}</p>
+		<p>Rating: {acount.rating}</p>
+		<p>Website: {acount.website}</p>
+
+
+		<template for:each={pokemons} for:item='poke'>
+			<p key={poke.cod}>Nome: {poke.nome} Tipo: {poke.tipo} Nivel: {poke.nivel} </p>
+			<p></p>
+		</template>
+
+
+	</div>
+</template>
